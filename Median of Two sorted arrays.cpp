@@ -26,7 +26,7 @@ public:
       else
       {
            if((v3[(m+n)/2]+v3[(m+n)/2-1])%2==0) return (v3[(m+n)/2]+v3[(m+n)/2-1])/2+0.0;
-           else return (v3[(m+n)/2]+v3[(m+n)/2-1])/2+0.5;
+           else return (v3[(m+n)/2]+v3[(m+n)/2-1])/2+ 0.5;
       }
     }
 };
